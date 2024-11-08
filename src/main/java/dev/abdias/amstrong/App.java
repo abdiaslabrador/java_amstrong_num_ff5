@@ -12,6 +12,9 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println(Amstrong.isAmstrongNumnb(371 ));
+        System.out.println(Amstrong.isAmstrongNumnb(1634 ));
+        System.out.println(Amstrong.isAmstrongNumnb(351 ));
+        System.out.println(Amstrong.isAmstrongNumnb(2015 ));
     }
 }
